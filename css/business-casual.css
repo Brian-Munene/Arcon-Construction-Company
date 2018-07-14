@@ -1,0 +1,223 @@
+/*!
+ * Start Bootstrap - Business Casual (http://startbootstrap.com/template-overviews/business-casual)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-casual/blob/master/LICENSE)
+ */
+
+body {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    /*background: url('../img/logo2.jpg') no-repeat center center fixed;*/
+    background-color: rgb(243, 98, 35);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.text-heading {
+    font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: black;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.tagline-upper {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.tagline-lower {
+    font-size: 0.8rem;
+    line-height: 0.8;
+}
+
+.text-expanded {
+    letter-spacing: 2px;
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.text-lg {
+    font-size: 1.25rem;
+}
+
+.bg-faded {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.bg-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+hr.divider {
+    border-color: #292b2c;
+    max-width: 250px;
+}
+
+.map-container iframe {
+    pointer-events: none;
+}
+
+.map-container iframe.clicked {
+    pointer-events: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    border: none;
+    margin-bottom: 30px;
+    height: 350px;
+    width: 300px;
+    overflow: hidden;
+    padding: 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-item img {
+    margin-bottom: 25px;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.grid-item img :hover {
+    opacity: 0.6;
+}
+
+img {
+    max-width: 100%;
+    max-height: 60%;
+}
+
+.mb-4 a {
+    color: black;
+}
+
+.col-lg-7 img {
+    max-width: 98%;
+    max-height: 98%;
+}
+
+.social-link {
+    padding: 35px 0;
+    margin: 0 0 0 68px;
+    display: block;
+    overflow: hidden;
+    list-style: none;
+}
+
+.social-link li {
+    float: left;
+    margin-right: 8px;
+}
+
+.social-link li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    color: #222222;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+.instagram {
+    color: black;
+}
+
+.social-link li a:hover,
+.social-link li a:focus {
+    text-decoration: none;
+}
+
+.twitter a:hover {
+    background: #55acee;
+}
+
+.facebook a:hover {
+    background: #3b5998;
+}
+
+.instagram a:hover {
+    background: firebrick;
+}
+
+.linkedin a:hover {
+    background-color: rgba(7, 88, 163, 0.87);
+}
+
+
+/*-----Packages Styling---
+-----------------------*/
+
+table {
+    margin-top: 40px;
+    margin-left: 220px;
+    margin-bottom: 40px;
+    background-color: aliceblue;
+}
+
+tr {
+    border: black;
+    padding: 16px;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+    border: black;
+    border-style: solid;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+th {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+.table-note {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+h6 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: solid black;
+    font-weight: bolder;
+}
+
+.bank {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.wrapper {
+    background-color: black;
+}
